@@ -1,5 +1,3 @@
-[1:40 AM, 10/25/2026] Ak Latheesh😘: <div align="center">
-
 # 🛒 Instamart Customer Intelligence & Support Copilot
 
 ### End-to-End Data Analytics, Machine Learning & AI Support Automation
