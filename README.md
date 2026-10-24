@@ -119,7 +119,6 @@ The repository is organized into data, source code, SQL queries, generated outpu
 
 The following tree is inside a fenced code block so GitHub preserves its line breaks and indentation.
 
-text
 instamart-customer-copilot/
 ├── data/
 │   ├── clean/
