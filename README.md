@@ -1,48 +1,4 @@
-[1:20 AM, 10/25/2026] Ak Latheesh😘: <div align="center">
-
-# 🛒 Instamart Customer Intelligence & Support Copilot
-
-### End-to-End Data Analytics, Machine Learning & AI Support Automation
-
-*Python | SQL | Machine Learning | NLP | TF-IDF | SQLite*
-
-</div>
-
----
-
-## 📌 1. Project Overview
-
-The *Instamart Customer Intelligence & Support Copilot* is an end-to-end AI/ML and Data Science capstone project designed to analyze customer behavior, predict customer lapse, classify support tickets, and assist customer support through policy-based information retrieval.
-
-This project combines data engineering, exploratory data analysis, machine learning, natural language processing, and simulated support automation in one organized repository.
-
-### 🎯 Project Objectives
-
-- Clean and validate customer, product, and…
-[1:25 AM, 10/25/2026] Ak Latheesh😘: <div align="center">
-
-# Instamart Customer Intelligence & Support Copilot
-
-### An End-to-End Data Analytics, Machine Learning and AI Support Project
-
-Python | SQL | Machine Learning | NLP | SQLite | TF-IDF
-
-</div>
-
----
-
-## 1. Project Overview
-
-The Instamart Customer Intelligence & Support Copilot is an end-to-end AI/ML and Data Science capstone project.
-
-It analyzes customer and order data, identifies customer segments, predicts customer lapse, classifies support tickets, retrieves relevant policy information, and demonstrates a simulated refund-support workflow.
-
-The project combines data analytics, machine learning, natural language processing, SQL, and customer-support automation.
-
-### Project Objectives
-
-- Clean and validate customer, product, and order d…
-[1:30 AM, 10/25/2026] Ak Latheesh😘: <div align="center">
+<div align="center">
 
 # 🛒 Instamart Customer Intelligence & Support Copilot
 
@@ -116,22 +72,20 @@ This project combines data engineering, exploratory data analysis, machine learn
 The repository is organized into data, source code, SQL queries, generated outputs, and saved model state.
 
 ### 🌳 Directory Tree
+
+The following tree is inside a fenced code block so GitHub preserves its line breaks and indentation.
+
+text
 instamart-customer-copilot/
-│
 ├── data/
 │   ├── clean/
 │   ├── policies/
 │   ├── raw/
 │   └── instamart.db
-│
 ├── outputs/
-│
 ├── sql/
-│
 ├── src/
-│
 ├── state/
-│
 ├── .gitignore
 ├── README.md
 ├── generate_data.py
