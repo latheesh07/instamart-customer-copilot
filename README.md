@@ -2,84 +2,61 @@
 
 ### End-to-End Data Analytics, Machine Learning & AI Support Automation
 
-*Python | SQL | Machine Learning | NLP | TF-IDF | SQLite*
-
-</div>
+*Python | SQL | SQLite | Machine Learning | NLP | TF-IDF*
 
 ---
 
 ## 📌 1. Project Overview
 
-The *Instamart Customer Intelligence & Support Copilot* is an end-to-end AI/ML and Data Science capstone project designed to analyze customer behavior, predict customer lapse, classify support tickets, and assist customer support through policy-based information retrieval.
+The *Instamart Customer Intelligence & Support Copilot* is an AI/ML and Data Science capstone project designed to demonstrate how customer analytics, predictive modeling, natural language processing, and policy-based support workflows can work together.
 
-This project combines data engineering, exploratory data analysis, machine learning, natural language processing, and simulated support automation in one organized repository.
+The project analyzes customer and order data, identifies customer segments, predicts customer lapse, classifies support tickets, retrieves relevant policy information, and simulates a refund-support workflow.
+
+> ⚠️ *Important:* This is an educational project that uses generated or simulated data and a mock language-model interface. It is not connected to official Instamart systems and does not perform real refund transactions.
 
 ### 🎯 Project Objectives
 
-- Clean and validate customer, product, and…
-
-# Instamart Customer Intelligence & Support Copilot
-
-### An End-to-End Data Analytics, Machine Learning and AI Support Project
-
-Python | SQL | Machine Learning | NLP | SQLite | TF-IDF
-
-</div>
-
----
-
-## 1. Project Overview
-
-The Instamart Customer Intelligence & Support Copilot is an end-to-end AI/ML and Data Science capstone project.
-
-It analyzes customer and order data, identifies customer segments, predicts customer lapse, classifies support tickets, retrieves relevant policy information, and demonstrates a simulated refund-support workflow.
-
-The project combines data analytics, machine learning, natural language processing, SQL, and customer-support automation.
-
-### Project Objectives
-
-- Clean and validate customer, product, and order datasets.
-- Perform exploratory data analysis and statistical analysis.
-- Store structured data in an SQLite database.
-- Segment customers based on purchasing behavior.
-- Predict customer lapse using machine learning.
-- Classify customer-support tickets.
-- Route support tickets by category and priority.
+- Clean and validate customer, product, and order data.
+- Perform exploratory data analysis (EDA).
+- Store structured data in SQLite.
+- Analyze order values, revenue, and statistical distributions.
+- Segment customers using purchasing behavior.
+- Build a customer-lapse prediction model.
+- Classify and route customer-support tickets.
 - Retrieve relevant policy information using TF-IDF.
-- Simulate refund eligibility and record the outcome.
-
-Important: This project uses generated or simulated data and a mock language-model interface. It is not connected to real Instamart systems, and no real refund transactions are performed.
+- Simulate refund eligibility and record the result.
+- Save reports, predictions, and model artifacts.
 
 ---
 
-## 2. Key Features
+## ✨ 2. Key Features
 
 | Feature | Description |
 |---|---|
-| Data Cleaning | Detect duplicate orders and prepare cleaned datasets |
-| Exploratory Data Analysis | Analyze revenue, order values, distributions, and correlations |
-| SQLite Database | Store structured customer, product, and order data |
-| Customer Segmentation | Group customers using recency, frequency, and monetary value |
-| Lapse Prediction | Predict customer lapse using a classification model |
-| AI Ticket Triage | Classify customer-support tickets |
-| Ticket Routing | Assign ticket categories and priorities |
-| Policy Assistant | Retrieve policy information using TF-IDF |
-| Refund Simulation | Simulate refund eligibility and record the result |
-| Output Management | Save reports, predictions, logs, and model artifacts |
+| 🧹 Data Cleaning | Detect duplicate orders and prepare cleaned data |
+| 📊 Exploratory Data Analysis | Analyze revenue, order values, distributions, and correlations |
+| 🗄️ SQLite Database | Store and query structured customer and order data |
+| 👥 Customer Segmentation | Group customers using recency, frequency, and monetary value |
+| 🔍 Lapse Prediction | Demonstrate customer-lapse classification |
+| 🎫 Ticket Triage | Classify customer-support tickets |
+| 🚦 Ticket Routing | Assign categories and priorities to support tickets |
+| 📚 Policy Assistant | Retrieve relevant policy text using TF-IDF |
+| 💳 Refund Simulation | Demonstrate refund eligibility and log simulated outcomes |
+| 📁 Output Management | Save reports, predictions, and state files |
 
 ---
 
-## 3. Technologies Used
+## 🧰 3. Technologies Used
 
 | Technology | Purpose |
 |---|---|
 | Python | Main programming language |
 | pandas | Data manipulation and analysis |
 | NumPy | Numerical computations |
-| scikit-learn | Machine learning and TF-IDF retrieval |
+| scikit-learn | Machine-learning models and TF-IDF retrieval |
 | SQLite | Relational database |
 | SQL | Database queries and validation |
-| joblib | Saving and loading trained models |
+| joblib | Model persistence |
 | CSV | Datasets, predictions, and reports |
 | JSON | Checkpoint and state information |
 | TXT | Policy documents |
@@ -87,11 +64,6 @@ Important: This project uses generated or simulated data and a mock language-mod
 
 ---
 
-## 4. Project Structure
-
-The repository is organized into data, source code, SQL queries, generated outputs, and saved model state.
-
-The directory tree is shown below. The text code block preserves the line breaks and indentation on GitHub.
 ## 🗂️ 4. Project Structure
 
 text
@@ -110,30 +82,31 @@ instamart-customer-copilot/
 ├── generate_data.py
 ├── mock_llm.py
 └── requirements.txt
-   
-### Directory Description
 
-| Directory or File | Purpose |
+
+### 📁 Directory Description
+
+| Directory / File | Purpose |
 |---|---|
 | data/raw/ | Generated source datasets |
 | data/clean/ | Cleaned datasets |
-| data/policies/ | Policy documents used by the support assistant |
+| data/policies/ | Policy documents for the support assistant |
 | data/instamart.db | SQLite database |
 | outputs/ | Analysis results, predictions, reports, and logs |
 | sql/ | SQL queries |
-| src/ | Source code for Parts A, B, C, and D |
-| state/ | Saved model and checkpoint files |
+| src/ | Source code for project components |
+| state/ | Saved models and checkpoint files |
 | .gitignore | Excludes unnecessary local files and secrets |
 | README.md | Project documentation |
 | generate_data.py | Data-generation script |
 | mock_llm.py | Mock language-model interface |
 | requirements.txt | Python dependencies |
 
+Note: The tree above shows the main repository structure. Individual files inside each directory may vary as the project is updated.
+
 ---
 
-## 5. Reproduce
-
-Follow these steps to set up and run the project on Windows.
+## 🚀 5. Reproduce the Project
 
 ### 5.1 Prerequisites
 
@@ -141,82 +114,85 @@ Follow these steps to set up and run the project on Windows.
 - pip package manager
 - Windows PowerShell or Command Prompt
 
-Git is optional if you download the repository as a ZIP file.
+Git is optional if the repository is downloaded as a ZIP file.
 
 ### 5.2 Download the Repository
 
-Open PowerShell and run:
+Repository:
 
-    git clone https://github.com/latheesh07/instamart-customer-copilot.git
-    cd instamart-customer-copilot
+https://github.com/latheesh07/instamart-customer-copilot
 
-Alternatively, open the GitHub repository in your browser and download the ZIP file. Extract it and open PowerShell inside the extracted project folder.
+Alternatively, download the repository as a ZIP file from GitHub and extract it.
+
+Open PowerShell inside the extracted project directory.
 
 ### 5.3 Check Python Installation
 
-Run:
+powershell
+py --version
 
-    py --version
 
-If Python is installed and the Python launcher is available, the command displays the installed version.
-
-If the command is not recognized, install Python and enable the option to add Python to PATH. Reopen PowerShell after installation.
+If this command is unavailable, verify that Python is installed and that the Python launcher is available.
 
 ### 5.4 Create a Virtual Environment
 
-Run these commands from the project root:
+powershell
+py -m venv .venv
 
-    py -m venv .venv
-    .\.venv\Scripts\Activate.ps1
-    py -m pip install --upgrade pip
 
-If PowerShell blocks virtual-environment activation, you can skip activation and use the Python launcher directly for the following installation and execution commands.
+Activate it using PowerShell:
+
+powershell
+.\.venv\Scripts\Activate.ps1
+
+
+If activation is blocked, follow the appropriate PowerShell execution-policy guidance for your computer or use the environment's Python executable directly.
 
 ### 5.5 Install Dependencies
 
-Run:
+powershell
+py -m pip install --upgrade pip
+py -m pip install -r requirements.txt
 
-    py -m pip install -r requirements.txt
 
-This installs the packages listed in requirements.txt.
+### 5.6 Generate Data
 
-### 5.6 Run the Project
+From the project root:
 
-Run each command from the project root directory.
+powershell
+py generate_data.py
 
-First, generate the data if the project requires it:
 
-    py generate_data.py
+Run this step when generated data needs to be recreated. Existing generated files may be overwritten, depending on the script.
 
-Then run the Part A validation script:
+### 5.7 Run Project Components
 
-    py src/validate_part_a.py
+Run only commands whose corresponding Python files exist in src/.
 
-Run the following scripts if their files exist in the src directory:
+The following commands reflect the recorded project scripts:
 
-    py src/customer_segmentation.py
-    py src/lapse_prediction.py
-    py src/ticket_triage.py
-    py src/evaluate_policy_rag.py
-    py src/refund_agent.py
+powershell
+py src/validate_part_a.py
+py src/customer_segmentation.py
+py src/lapse_prediction.py
+py src/ticket_triage.py
+py src/evaluate_policy_rag.py
+py src/refund_agent.py
 
-Important:
 
-- Confirm the script filenames in src before running them.
-- Run scripts in the order required by their input files.
-- Some scripts depend on data or outputs generated by earlier scripts.
-- The commands above assume the listed filenames are present in your repository.
-- The refund workflow is a simulation only.
+Run the components in the order required by their input files.
+
+> *Note:* Confirm the script filenames and dependencies in src/ before running them. The recorded results below describe a previous project run; they do not guarantee that every command will work unchanged on every computer.
 
 ---
 
-## 6. Part A - Data Cleaning, EDA and SQL
+## 📊 6. Part A — Data Cleaning, EDA & SQL
 
-Part A focuses on data cleaning, duplicate detection, exploratory data analysis, statistical analysis, and SQLite database preparation.
+Part A focuses on data validation, duplicate detection, statistical analysis, and database preparation.
 
 ### 6.1 Dataset Summary
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---:|
 | Customers | 1,200 |
 | Products | 40 |
@@ -225,60 +201,66 @@ Part A focuses on data cleaning, duplicate detection, exploratory data analysis,
 | Cleaned Orders | 12,309 |
 | Completed Orders | 11,110 |
 | Cancelled Orders | 1,199 |
-| Revenue from Completed Orders | INR 2,998,668.80 |
+| Revenue from Completed Orders | ₹2,998,668.80 |
 
 ### 6.2 Statistical Analysis
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---:|
-| Mean Order Amount | INR 269.91 |
-| Median Order Amount | INR 135.00 |
-| Standard Deviation | INR 432.07 |
+| Mean Order Amount | ₹269.91 |
+| Median Order Amount | ₹135.00 |
+| Standard Deviation | ₹432.07 |
 | Skewness | 4.61 |
-| First Quartile (Q1) | INR 64.80 |
-| Third Quartile (Q3) | INR 297.00 |
-| Upper Outlier Fence | INR 645.30 |
+| First Quartile (Q1) | ₹64.80 |
+| Third Quartile (Q3) | ₹297.00 |
+| Upper Outlier Fence | ₹645.30 |
 | Outliers Identified | 897 |
 
 ### 6.3 Correlation Analysis
 
 | Feature Pair | Correlation |
 |---|---:|
-| Amount vs Discount | -0.0951 |
-| Amount vs Quantity | 0.0873 |
-| Discount vs Quantity | -0.0004 |
+| Amount vs. Discount | -0.0951 |
+| Amount vs. Quantity | 0.0873 |
+| Discount vs. Quantity | -0.0004 |
 
-These correlations are weak in the generated dataset. Correlation does not establish causation.
+These recorded correlations are weak. Correlation does not establish causation.
 
-### 6.4 Validation Results
+### 6.4 Validation
 
-| Validation Item | Result |
-|---|---|
+| Validation Item | Recorded Result |
+|---|---:|
 | Validation Script | src/validate_part_a.py |
 | Checkpoints Passed | 26 |
 
+### 📁 Main Output
+
+- Cleaned datasets
+- SQLite database
+- SQL query results and validation outputs
+
 ---
 
-## 7. Part B - Customer Segmentation and Lapse Prediction
+## 👥 7. Part B — Customer Segmentation & Lapse Prediction
 
-Part B analyzes customer purchasing behavior and builds a machine-learning model to predict customer lapse.
+Part B analyzes customer purchasing behavior and demonstrates machine-learning-based lapse prediction.
 
 ### 7.1 Customer Segmentation
 
 Customers are grouped using recency, frequency, and monetary-value features.
 
-| Segment | Customers | Mean Recency | Mean Frequency | Mean Monetary Value |
+| Segment | Customers | Mean Recency (Days) | Mean Frequency | Mean Monetary Value |
 |---|---:|---:|---:|---:|
-| 0 | 423 | 32.78 | 3.40 | INR 1,166.53 |
-| 1 | 585 | 12.02 | 16.01 | INR 4,146.37 |
-| 2 | 27 | 182.26 | 0.07 | INR 1.22 |
-| 3 | 165 | 110.21 | 1.86 | INR 482.22 |
+| 0 | 423 | 32.78 | 3.40 | ₹1,166.53 |
+| 1 | 585 | 12.02 | 16.01 | ₹4,146.37 |
+| 2 | 27 | 182.26 | 0.07 | ₹1.22 |
+| 3 | 165 | 110.21 | 1.86 | ₹482.22 |
 
-Recency is measured in days in the recorded analysis. Segment numbers are model-generated labels, not rankings.
+Segment identifiers are model-generated labels, not rankings.
 
 ### 7.2 Lapse Prediction Dataset
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---|
 | Historical Cutoff | 2025-09-01 |
 | Prediction Window | 2025-09-01 to 2025-09-30 |
@@ -289,7 +271,7 @@ Recency is measured in days in the recorded analysis. Segment numbers are model-
 
 ### 7.3 Model Evaluation
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---:|
 | Accuracy | 0.7208 |
 | ROC-AUC | 0.7724 |
@@ -306,19 +288,19 @@ Recency is measured in days in the recorded analysis. Segment numbers are model-
 | File | Purpose |
 |---|---|
 | outputs/customer_segments.csv | Customer segmentation results |
-| outputs/customer_segment_summary.csv | Customer segment summary |
-| outputs/lapse_predictions.csv | Customer lapse predictions |
-| state/lapse_model.joblib | Saved lapse prediction model |
+| outputs/customer_segment_summary.csv | Segment summary |
+| outputs/lapse_predictions.csv | Lapse predictions |
+| state/lapse_model.joblib | Saved prediction model |
 
 ---
 
-## 8. Part C - AI Support Ticket Triage
+## 🎫 8. Part C — AI Support Ticket Triage
 
-Part C classifies customer-support tickets, compares zero-shot and few-shot classification, and routes tickets by category and priority.
+Part C demonstrates ticket classification, comparison of zero-shot and few-shot methods, and support-ticket routing.
 
 ### 8.1 Classification Results
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---:|
 | Tickets Processed | 164 |
 | Successful Classifications | 164 |
@@ -334,6 +316,7 @@ Part C classifies customer-support tickets, compares zero-shot and few-shot clas
 | Delivery | 43 |
 | Technical | 33 |
 | Fraud | 25 |
+| *Total* | *164* |
 
 ### 8.3 Ticket Routing
 
@@ -343,6 +326,7 @@ Part C classifies customer-support tickets, compares zero-shot and few-shot clas
 | Delivery | 43 |
 | Technical | 33 |
 | Trust and Safety | 25 |
+| *Total* | *164* |
 
 ### 8.4 Priority Distribution
 
@@ -350,10 +334,11 @@ Part C classifies customer-support tickets, compares zero-shot and few-shot clas
 |---|---:|
 | P1 | 63 |
 | P2 | 101 |
+| *Total* | *164* |
 
 ### 8.5 Token Budget
 
-| Metric | Result |
+| Metric | Recorded Result |
 |---|---:|
 | Reported Total Tokens | 11,952 |
 | Token Budget | 15,000 |
@@ -373,15 +358,21 @@ The recorded classification comparison used 160 examples; four tickets were omit
 
 ---
 
-## 9. Part D - Policy Assistant and Refund Simulation
+## 📚 9. Part D — Policy Assistant & Refund Simulation
 
-Part D retrieves policy information and demonstrates a simulated refund-support workflow.
+Part D demonstrates policy retrieval and a simulated refund-support workflow.
 
 ### 9.1 Policy Assistant
 
-The policy assistant retrieves relevant policy text using TF-IDF and generates simulated answers through a mock language-model interface.
+The policy assistant retrieves relevant policy text using TF-IDF and generates simulated responses through a mock language-model interface.
 
-The policy documents cover delivery, escalation, payment, privacy, and refund-related topics.
+The policy documents cover topics including:
+
+- Delivery
+- Escalation
+- Payment
+- Privacy
+- Refunds
 
 ### 9.2 Policy Evaluation
 
@@ -394,7 +385,7 @@ The policy documents cover delivery, escalation, payment, privacy, and refund-re
 
 Two predefined questions used deterministic answers and had a reported token count of zero.
 
-This evaluation contains only eight fixed test cases. It does not guarantee accuracy on unseen questions.
+The evaluation contains only eight fixed test cases. It does not guarantee accuracy on unseen questions.
 
 ### 9.3 Refund-Agent Simulation
 
@@ -402,10 +393,10 @@ This evaluation contains only eight fixed test cases. It does not guarantee accu
 |---|---|
 | Sample Order | ORD-111469 |
 | Order Status | Completed |
-| Simulated Eligible Refund | INR 45.00 |
+| Simulated Eligible Refund | ₹45.00 |
 | Real Transaction | Not Performed |
 
-Important: This is a simulation only. No real refund was issued. The project is not connected to real Instamart order or payment systems.
+> ⚠️ *Simulation only:* No real refund was issued. The project is not connected to actual Instamart orders or payment systems.
 
 ### 9.4 Reported Outputs
 
@@ -418,20 +409,20 @@ Checkpoint saving was verified in the recorded run. Full resume and recovery beh
 
 ---
 
-## 10. Overall Project Results
+## 📈 10. Overall Project Results
 
 | Part | Main Focus | Recorded Outcome |
 |---|---|---|
-| Part A | Data Cleaning, EDA and SQL | 26 validation checkpoints passed |
-| Part B | Customer Segmentation and Lapse Prediction | Four segments; ROC-AUC 0.7724 |
-| Part C | AI Ticket Classification and Routing | 164 tickets processed; zero classification failures |
-| Part D | Policy Retrieval and Refund Simulation | 8 out of 8 fixed policy tests passed |
+| Part A | Data Cleaning, EDA & SQL | 26 validation checkpoints passed |
+| Part B | Customer Segmentation & Lapse Prediction | Four segments; ROC-AUC 0.7724 |
+| Part C | Ticket Classification & Routing | 164 tickets processed; zero classification failures |
+| Part D | Policy Retrieval & Refund Simulation | 8 of 8 fixed policy tests passed |
 
-All results are from a recorded run using generated or simulated data. Results may vary if the dataset, random seeds, dependencies, or source code change.
+All figures represent recorded results using generated or simulated data. Results may vary if the dataset, random seeds, dependencies, or source code change.
 
 ---
 
-## 11. Limitations
+## ⚠️ 11. Limitations
 
 | Area | Limitation |
 |---|---|
@@ -447,53 +438,50 @@ All results are from a recorded run using generated or simulated data. Results m
 
 ---
 
-## 12. Next Steps
+## 🚀 12. Next Steps
 
-- Add automated unit and integration tests for Parts A, B, C, and D.
+- Add automated unit and integration tests for all project components.
 - Expand the policy assistant evaluation dataset.
-- Evaluate the lapse model using precision, recall, F1-score, and additional validation data.
+- Evaluate lapse prediction with precision, recall, F1-score, and additional validation data.
 - Document dataset schemas and data-cleaning rules.
-- Improve reproducibility by recording dependency versions and random seeds.
+- Record dependency versions and random seeds for reproducibility.
 - Add data-quality monitoring and model-performance tracking.
-- Build an interactive dashboard for customer and ticket analytics.
+- Improve the interactive dashboard for customer and ticket analytics.
 - Test checkpoint recovery and failure-handling scenarios.
 - Add authentication, audit logs, and privacy protections before any real-world integration.
 - Require human approval before consequential actions.
 
 ---
 
-## 13. Privacy and Security
+## 🔐 13. Privacy & Security
 
 - Never commit passwords, API keys, access tokens, or .env files.
 - Keep virtual environments and Python cache files out of the repository.
 - Use .gitignore to exclude unnecessary local files.
-- Treat the project datasets as generated or simulated data.
-- Do not represent simulated refund decisions as real transactions.
+- Treat project datasets as generated or simulated data.
+- Never represent simulated refund decisions as real transactions.
+- Review repository contents before making the project public.
 
 ---
 
-## 14. Project Information
+## ℹ️ 14. Project Information
 
 | Detail | Information |
 |---|---|
-| Project Name | Instamart Customer Intelligence and Support Copilot |
+| Project Name | Instamart Customer Intelligence & Support Copilot |
 | Project Type | AI/ML and Data Science Capstone |
-| Repository | https://github.com/latheesh07/instamart-customer-copilot |
+| Repository | [GitHub Repository](https://github.com/latheesh07/instamart-customer-copilot) |
 | Primary Branch | main |
 | Main Language | Python |
 | Database | SQLite |
 | Key Areas | Data Analytics, Machine Learning, NLP, Customer Support Automation |
 
-### Core Technologies
+### 🧑‍💻 Core Technologies
 
-Python | SQL | SQLite | pandas | NumPy | scikit-learn | TF-IDF | Machine Learning | NLP
+Python · SQL · SQLite · pandas · NumPy · scikit-learn · TF-IDF · Machine Learning · NLP
 
 ---
 
-<div align="center">
+### 🎓 Built as an AI/ML & Data Science Capstone Project
 
-### Built as an AI/ML and Data Science Capstone Project
-
-Customer Analytics | Predictive Modeling | Intelligent Support Automation
-
-</div>
+*Customer Analytics | Predictive Modeling | Intelligent Support Automation*
