@@ -92,29 +92,25 @@ Important: This project uses generated or simulated data and a mock language-mod
 The repository is organized into data, source code, SQL queries, generated outputs, and saved model state.
 
 The directory tree is shown below. The text code block preserves the line breaks and indentation on GitHub.
+## 🗂️ 4. Project Structure
 
-    instamart-customer-copilot/
-    |
-    |-- data/
-    |   |-- clean/
-    |   |-- policies/
-    |   |-- raw/
-    |   |-- instamart.db
-    |
-    |-- outputs/
-    |
-    |-- sql/
-    |
-    |-- src/
-    |
-    |-- state/
-    |
-    |-- .gitignore
-    |-- README.md
-    |-- generate_data.py
-    |-- mock_llm.py
-    |-- requirements.txt
-
+text
+instamart-customer-copilot/
+├── data/
+│   ├── clean/
+│   ├── policies/
+│   ├── raw/
+│   └── instamart.db
+├── outputs/
+├── sql/
+├── src/
+├── state/
+├── .gitignore
+├── README.md
+├── generate_data.py
+├── mock_llm.py
+└── requirements.txt
+   
 ### Directory Description
 
 | Directory or File | Purpose |
