@@ -1,0 +1,2 @@
+token_budget,prompt_tokens,completion_tokens,total_tokens,remaining_tokens,budget_exceeded,tickets_processed,successful_tickets,failed_tickets
+15000,10804,1148,11952,3048,False,164,164,0

@@ -1,0 +1,9 @@
+test,question,answer,expected_keyword,expected_source,source_found,passed,total_tokens
+1,Can cancelled orders receive a refund?,"Orders with status cancelled were never charged, so no refund applies to them.",cancelled,refund_policy.txt,True,True,116
+2,What happens if delivery takes more than 45 minutes?,"If a completed order is delivered in more than 45 minutes, the customer receives a full refund of the order amount.",full refund,refund_policy.txt,True,True,134
+3,Who approves refunds above INR 1000?,A refund above INR 1000 must be approved by a human support lead before money is returned.,human,refund_policy.txt,True,True,142
+4,How long does a refund take?,Approved refunds are credited to the original payment method within 5 working days.,5 working days,refund_policy.txt,True,True,0
+5,When should a refund request be raised?,A refund request must be raised within 7 days of the delivery date.,7 days,refund_policy.txt,True,True,110
+6,What is the delivery fee for orders below INR 199?,"A delivery fee of INR 25 is charged on orders below INR 199, and delivery is free on orders of INR 199 or more.",25,delivery_policy.txt,True,True,135
+7,Which cities are supported?,"The supported cities are Chennai, Mumbai, Bengaluru, Delhi, Hyderabad and Pune.",chennai,delivery_policy.txt,True,True,0
+8,How many times does the rider contact the customer?,A rider will attempt to contact the customer twice before marking an order as undeliverable.,twice,delivery_policy.txt,True,True,144
