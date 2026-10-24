@@ -116,17 +116,22 @@ This project combines data engineering, exploratory data analysis, machine learn
 The repository is organized into data, source code, SQL queries, generated outputs, and saved model state.
 
 ### 🌳 Directory Tree
-
 instamart-customer-copilot/
+│
 ├── data/
 │   ├── clean/
 │   ├── policies/
 │   ├── raw/
 │   └── instamart.db
+│
 ├── outputs/
+│
 ├── sql/
+│
 ├── src/
+│
 ├── state/
+│
 ├── .gitignore
 ├── README.md
 ├── generate_data.py
