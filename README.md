@@ -17,7 +17,6 @@ This project combines data engineering, exploratory data analysis, machine learn
 ### 🎯 Project Objectives
 
 - Clean and validate customer, product, and…
-[1:41 AM, 10/25/2026] Ak Latheesh😘: <div align="center">
 
 # Instamart Customer Intelligence & Support Copilot
 
